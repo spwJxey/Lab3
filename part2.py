@@ -13,3 +13,6 @@ solve_quadratic(2, 3, 1)
     
 solve_quadratic(1, 0, -1)    
 # should print: The roots of y = 1x^2 + 0x + -1 are 1.0 and -1.0
+
+#an error occurs if b^2 is less than 4ac because the result would then be negative and you cant take the square root of a negative number
+#this would be a runtime error (impossible instructions)
